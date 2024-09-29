@@ -1,0 +1,549 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 3%;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #231e21;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width:150px;
+    height: 50px;
+    background-image: url("amalogo2.png");
+    background-size: cover;
+}
+
+.address{
+    height: 50px;
+    width:70px;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sec{
+    font-size: 1rem;
+    color: white;
+    margin-left: 5px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width:55%;
+    margin-left: 10px;
+}
+.selector{
+    color:black;
+    height: 45px;
+    width:50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: none;
+}
+
+.selector:hover{
+    background-color: #c5c5c5;
+}
+
+.input1{
+    color:black;
+    height: 45px;
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search2{
+    width: 50px;
+    height: 45px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size: 1.2rem;
+}
+
+.search2:hover{
+    background-color: rgb(255, 179, 39);
+}
+
+.signin{
+    height: 55px;
+    width: 160px;
+    padding-left: 5px;
+}
+
+.hsignin{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 20px;
+    margin-top:10px
+}
+
+.hsignin2{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 800;
+}
+
+.ro{
+    height: 55px;
+    width: 80px;
+    padding-left: 15px;
+}
+
+.r{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 10px;
+    margin-top:10px
+}
+
+.o{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 800;
+}
+
+.cart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 80px;
+    font-size: 1rem;
+    padding-left: 5px;
+    color: white;
+    font-weight: 800;
+}
+
+.carticon{
+    font-size: 2rem;
+}
+
+.underh{
+    width:100%;
+    height:40px;
+    background-color: #232F3E;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70px;
+    height:40px;
+    color:white;
+    margin-left: 10px;
+}
+
+.menuicon{
+    font-size:1.5rem;
+}
+
+.extra{
+    display:flex;
+    color:white;
+    align-items: center;
+}
+
+.extra a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:38px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.bgbig{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.bgr{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top,#dad7d9 ,transparent 80%);
+    opacity: 0.9;
+    position: absolute;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: url("amazonbg.jpg");
+    background-size: cover;
+}
+
+.q1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-image: linear-gradient(to bottom,#dad7d9,#d7d8d8 );
+}
+.box{
+    width: 23%;
+    height: 380px;
+    background-color: #ffffff;
+    border: 1.5px solid transparent;
+}
+
+.box h2{
+    margin-left: 30px;
+}
+
+.box a{
+    margin-left: 20px;
+}
+
+.g1{
+    height: 80%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("g.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.g2{
+    height: 80%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("g2.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.g3{
+    height: 80%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("g3.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.g4{
+    height: 80%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("g4.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.s1{
+    height: 70%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("s1.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.s2{
+    height: 70%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("s2.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.s3{
+    height: 75%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("s3.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.s4{
+    height: 80%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url("s4.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.q2{
+    height: 320px;
+    width: 100%;
+    background-color: #d7d8d8;
+}
+
+.moviscroll{
+    height: 280px;
+    width: 95%;
+    border-radius: 1%;
+    background-color: white;
+    margin-left: 35px;
+    padding-left:20px;
+}
+
+.roller1{
+    width: 80px;
+    height: 120px;
+    background-color: transparent;
+    color: transparent;
+    margin-left: 65px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.next{
+    width: 80px;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size: 3rem;
+    border-top-right-radius: 10px;
+}
+
+.roller1:hover:after{
+    background-color: transparent;
+    color: transparent;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.roller2{
+    width: 80px;
+    height: 120px;
+    background-color: transparent;
+    color: transparent;
+    margin-left: 1220px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.prev{
+    width: 80px;
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 3rem;
+}
+
+.q2:hover .roller1,.q2:hover .roller2{
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.movies{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height:250px;
+    width: 95%;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.m1{
+    height:200px;
+    width: 150px;
+    background-image:url("m1.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.m2{
+    height:200px;
+    width: 150px;
+    background-image:url("m2.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.m3{
+    height:200px;
+    width: 150px;
+    background-image:url("m3.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.m4{
+    height:200px;
+    width: 350px;
+    background-image:url("m4.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.m5{
+    height:200px;
+    width: 150px;
+    background-image:url("m5.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.m6{
+    height:200px;
+    width: 150px;
+    background-image:url("m6.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.q3{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+}
+
+.signb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid grey;
+}
+
+.text{
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: rgb(49, 37, 37);
+}
+
+.bun{
+    margin-top: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border:1px solid rgb(231, 150, 0);
+    background-image: linear-gradient(to bottom,yellow 5%, orange);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+}
+.text2{
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
+
+.text3{
+    margin-top: 5px;
+    font-size: 0.75rem;
+    color: rgb(117, 117, 185);
+    cursor: pointer;
+}
+
+.btt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 40px;
+    background-color: #485769;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+}
+
+.btt:hover{
+    background-color: #656e7a;
+}
+
+.footermain{
+    height: 600px;
+    width: 100%;
+    background-color: #232F3E;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(148, 147, 147);
+}
+
+.info1{
+    width: 23%;
+    height: 200px;
+    margin-top: 50px;
+    color:white;
+}
+
+.info1 h4{
+    font-weight: 600;
+}
+
+.info1 ul{
+    margin: 15px;
+    margin-left: 0px;
+    font-size: 0.85rem;
+}
+
+.info1 ul:hover{
+    font-weight: 700;
+}
+
+.endimages{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.amlogo{
+    width: 250px;
+    height: 100px;
+    background-image: url("amalogo2.png");
+    background-size: cover;
+}
